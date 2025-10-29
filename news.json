@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Как мы перестали хранить Pydantic в JSON и в 7 раз сократили расход памяти в Redis",
+    "url": "https://habr.com/ru/users/sijokun/",
+    "author": "sijokun",
+    "date": "2025-10-28, 21:21"
+  },
+  {
+    "title": "ChatGPT: как пользоваться нейросетью в России",
+    "url": "https://habr.com/ru/users/dmitrifriend/",
+    "author": "dmitrifriend",
+    "date": "2025-10-28, 20:55"
+  },
+  {
+    "title": "«Манускрипт. Распознать нельзя забыть: как мы научили нейросеть читать рукописи XIX века»",
+    "url": "https://habr.com/ru/users/konstantin_kozhin/",
+    "author": "konstantin_kozhin",
+    "date": "2025-10-28, 20:08"
+  },
+  {
+    "title": "How to make 3D Skeletal animation system — custom overview",
+    "url": "https://habr.com/ru/users/Jijiki/",
+    "author": "Jijiki",
+    "date": "2025-10-28, 19:14"
+  },
+  {
+    "title": "Что еще могёт курсор",
+    "url": "https://habr.com/ru/users/Sharque/",
+    "author": "Sharque",
+    "date": "2025-10-28, 18:45"
+  },
+  {
+    "title": "Практический гайд по акциям и скидкам — настраиваем промо для хостинга",
+    "url": "https://habr.com/ru/users/omyhosts/",
+    "author": "omyhosts",
+    "date": "2025-10-28, 18:36"
+  },
+  {
+    "title": "Звёзды у нас в голове. О роли астроцитов в работе нейронных сетей",
+    "url": "https://habr.com/ru/users/OlegSivchenko/",
+    "author": "OlegSivchenko",
+    "date": "2025-10-28, 18:07"
+  },
+  {
+    "title": "Свой ControlValueAccessor в Angular",
+    "url": "https://habr.com/ru/users/badcasedaily1/",
+    "author": "badcasedaily1",
+    "date": "2025-10-28, 17:14"
+  },
+  {
+    "title": "Делаем самые лучшие фото для документов",
+    "url": "https://habr.com/ru/users/AndreasCag/",
+    "author": "AndreasCag",
+    "date": "2025-10-28, 15:44"
+  },
+  {
+    "title": "Сверхтьюринговые вычисления и гиперкомпьютеры. Тезис Чёрча-Тьюринга как универсальный предел познания",
+    "url": "https://habr.com/ru/users/dionisdimetor/",
+    "author": "dionisdimetor",
+    "date": "2025-10-28, 15:25"
+  },
+  {
+    "title": "Самая частая и фатальная ошибка тех, кто что-то создает",
+    "url": "https://habr.com/ru/users/alexeybashuk/",
+    "author": "alexeybashuk",
+    "date": "2025-10-28, 15:17"
+  },
+  {
+    "title": "Не то золото, что блестит, или интервью с коллекционерами из разных стран. Часть 3. Южная Корея",
+    "url": "https://habr.com/ru/users/UnknownDoomer/",
+    "author": "UnknownDoomer",
+    "date": "2025-10-28, 15:14"
+  },
+  {
+    "title": "Лидерство в тестировании: управление своей карьерой",
+    "url": "https://habr.com/ru/users/ProQualityCommunity/",
+    "author": "ProQualityCommunity",
+    "date": "2025-10-28, 15:01"
+  },
+  {
+    "title": "Архитектура ИТ решений. Часть 4. Архитектура приложений. 4.1. Область разработки прикладных систем",
+    "url": "https://habr.com/ru/users/ARadzishevskiy/",
+    "author": "ARadzishevskiy",
+    "date": "2025-10-28, 14:42"
+  },
+  {
+    "title": "Когда MPLS, VPN и IPSec недостаточно: как повысить надёжность сети",
+    "url": "https://habr.com/ru/users/MTCWebServices/",
+    "author": "MTCWebServices",
+    "date": "2025-10-28, 14:30"
+  },
+  {
+    "title": "Когда ваш ИИ-браузер становится вашим врагом: катастрофа безопасности Comet. Мнение колумниста Venture Beat",
+    "url": "https://habr.com/ru/users/madballer34/",
+    "author": "madballer34",
+    "date": "2025-10-28, 14:09"
+  },
+  {
+    "title": "Длинное мышление против жёстких пайплайнов: как DeepAgent превращает рассуждение в действие",
+    "url": "https://habr.com/ru/users/andre_dataist/",
+    "author": "andre_dataist",
+    "date": "2025-10-28, 13:54"
+  },
+  {
+    "title": "Обзор защищённого промышленного планшета Samsung Galaxy Tab Active5 Pro",
+    "url": "https://habr.com/ru/users/IgnatChuker/",
+    "author": "IgnatChuker",
+    "date": "2025-10-28, 13:52"
+  },
+  {
+    "title": "Почему физики и программисты мыслят одинаково: законы симметрии кода и Вселенной",
+    "url": "https://habr.com/ru/users/olgur392876/",
+    "author": "olgur392876",
+    "date": "2025-10-28, 13:40"
+  },
+  {
+    "title": "BDD: Как заставить тесты говорить на одном языке с бизнесом (и перестать платить за недопонимание)",
+    "url": "https://habr.com/ru/users/ITFB_Group/",
+    "author": "ITFB_Group",
+    "date": "2025-10-28, 13:39"
+  }
+]

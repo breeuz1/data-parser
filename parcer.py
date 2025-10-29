@@ -32,7 +32,7 @@ for article in articles:
     )
 
 
-with open("news.json", "w", encoding="utf-8") as f:
+with open("data-parser/news.json", "w", encoding="utf-8") as f:
     json.dump(new_list, f, ensure_ascii=False, indent=2)
 
 print(f"Спаршено {len(new_list)} новостей!")
