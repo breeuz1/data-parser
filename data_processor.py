@@ -3,10 +3,10 @@ import pandas as pd
 
 try:
     time = int(input("После скольки показать вам новости -- "))
-    news = pd.read_json("data-parser/news.json")
+    news = pd.read_json("data-parser/data/news.json")
     after_time = news[news["date"].dt.hour > time]
 
-    after_time.to_csv("data-parser/news.csv", index=False)
+    after_time.to_csv("data-parser/data/news.csv", index=False)
     longest_title = news.loc[news["title"].str.len().idxmax()]
     shortest_title = news.loc[news["title"].str.len().idxmin()]
     print(
