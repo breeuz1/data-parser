@@ -1,9 +1,9 @@
 import telebot
-import os
+
 
 import json
 
-with open("config.json", "r") as f:
+with open("data-parser/config.json", "r") as f:
     config = json.load(f)
 
 bot = telebot.TeleBot(config["telegram_token"])
