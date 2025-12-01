@@ -49,7 +49,10 @@ def process_name_step(message):
 
     user_data[user_id]["name"] = message.text
 
-    msg = bot.send_message(message.chat.id, f"Приятно познакомиться {user_data[user_id]["name"]}! Сколько тебе лет?")
+    msg = bot.send_message(
+        message.chat.id,
+        f"Приятно познакомиться {user_data[user_id]["name"]}! Сколько тебе лет?",
+    )
     bot.register_next_step_handler(msg, process_age_step)
 
 
