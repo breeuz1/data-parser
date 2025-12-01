@@ -24,16 +24,11 @@ def handle_help(message):
     )
 
 
-@bot.message_handler(content_types=["text"])
-def echo(message):
-    if message.text.startswith('/'):
-        return
-    bot.send_message(message.chat.id, f"Вы отпраили мне текст: '{message.text}'")
-
-
 @bot.message_handler(commands=["survey"])
 def start_survey(message):
     user_id = message.from_user.id
+
+    print(f"Получена команда /survey от пользователя {user_id}")
 
     if user_id not in user_data:
         user_data[user_id] = {}
@@ -44,14 +39,29 @@ def start_survey(message):
 
 def process_name_step(message):
     user_id = message.from_user.id
+
+    if message.text.startswith("/"):
+        bot.send_message(
+            message.chat.id,
+            "Опрос прерван. Для начала нового опроса используйте /survey",
+        )
+        return
+
     user_data[user_id]["name"] = message.text
 
-    msg = bot.send_message(message.chat.id, f"Приятно познакомиться! Сколько тебе лет?")
+    msg = bot.send_message(message.chat.id, f"Приятно познакомиться {user_data[user_id]["name"]}! Сколько тебе лет?")
     bot.register_next_step_handler(msg, process_age_step)
 
 
 def process_age_step(message):
     user_id = message.from_user.id
+
+    if message.text.startswith("/"):
+        bot.send_message(
+            message.chat.id,
+            "Опрос прерван. Для начала нового опроса используйте /survey",
+        )
+        return
 
     try:
         age = int(message.text)
@@ -69,6 +79,12 @@ def process_age_step(message):
         )
 
 
-print("Бот запущен!!!")
+@bot.message_handler(content_types=["text"])
+def echo(message):
+    if message.text.startswith("/"):
+        return
+    bot.send_message(message.chat.id, f"Вы отпраили мне текст: '{message.text}'")
 
+
+print("Бот запущен!!!")
 bot.polling(non_stop=True)
